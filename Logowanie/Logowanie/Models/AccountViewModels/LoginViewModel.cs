@@ -14,9 +14,9 @@ namespace Logowanie.Models.AccountViewModels
 
         [Required]
         [DataType(DataType.Password)]
-        public string Password { get; set; }
+        public string Hasło { get; set; }
 
-        [Display(Name = "Remember me?")]
-        public bool RememberMe { get; set; }
+        [Display(Name = "Zapamiętaj")]
+        public bool Zapamiętaj { get; set; }
     }
 }
